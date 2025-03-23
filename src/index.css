@@ -26,10 +26,12 @@ img {
   --grayish-blue: hsl(217, 19%, 38%);
   --dark-grayish-blue: hsl(217, 19%, 24%);
   --dark-blue: hsl(218, 23%, 16%);
+  --white: hsl(0, 0%, 100%);
 }
 
 .body{
   align-items: center;
+  background-color: var(--dark-blue);
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -37,6 +39,12 @@ img {
 
 .main-content {
   align-items: center;
+  background-color: var(--dark-grayish-blue);
+  color: var(--white);
   display: flex;
   flex-direction: column;
+}
+
+.advice-number {
+  color: var(--neon-green);
 }
