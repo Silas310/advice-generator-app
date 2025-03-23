@@ -10,7 +10,7 @@ function App() {
         <source media="(min-width: 1440px)" srcset="./images\pattern-divider-desktop.svg" />
         <img src="./images\pattern-divider-mobile.svg" alt="divider row" />
       </picture>
-      <button></button>
+      <button className='button'></button>
     </main>
   )
 }
