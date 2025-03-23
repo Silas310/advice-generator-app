@@ -28,8 +28,8 @@ function App() {
       <h1 className='advice-number'>ADVICE #117</h1>
       <p className='advice'>{advice}</p>
       <picture className='pic'>
-        <source media="(min-width: 720px)" srcSet="./images/pattern-divider-desktop.svg" />
-        <img src="./images/pattern-divider-mobile.svg" alt="divider row" />
+        <source media="(min-width: 720px)" srcSet="pattern-divider-desktop.svg" />
+        <img src="pattern-divider-mobile.svg" alt="divider row" />
       </picture>
       <button className='button' onClick={changeAdvice}></button>
     </main>
