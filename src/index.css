@@ -61,3 +61,17 @@ img {
   font-size: 1.75rem;
   text-align: center;
 }
+
+.button {
+  background-color: var(--neon-green);
+  background-image: url(../images/icon-dice.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  border-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3rem;
+  padding: 1rem;
+  width: 3rem;
+}
