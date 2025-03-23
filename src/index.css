@@ -35,19 +35,26 @@ img {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  padding: 1rem;
 }
 
 .main-content {
   align-items: center;
   background-color: var(--dark-grayish-blue);
+  border-radius: .75rem;
   color: var(--white);
   display: flex;
   flex-direction: column;
+  font-weight: 800;
+  row-gap: 2rem;
+  padding: 2rem;
+  max-width: 40rem;
 }
 
 .advice-number {
   color: var(--neon-green);
-  font-size: 1rem;
+  font-size: .8rem;
+  letter-spacing: .2rem;
 }
 
 .advice {
