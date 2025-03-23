@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
   return (
-    <main>
+    <main className='main-content'>
       <h1>oi</h1>
       <p></p>
       <picture>

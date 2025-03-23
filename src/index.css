@@ -34,3 +34,9 @@ img {
   justify-content: center;
   min-height: 100vh;
 }
+
+.main-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
