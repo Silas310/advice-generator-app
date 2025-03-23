@@ -77,5 +77,10 @@ img {
   padding: 1rem;
   position: relative;
   top: 2rem;
+  transition: 0.3s;
   width: 4rem;
+}
+
+button:hover {
+  box-shadow: 1px 1px 20px 5px var(--neon-green);
 }
